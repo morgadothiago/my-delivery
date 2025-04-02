@@ -15,9 +15,8 @@ export const Main = styled.View`
   background-color: ${colors.secondary};
   flex-direction: row;
 `;
+export const Content =  styled.View`
+  width: 80%;
+  height: 60px;
 
-export const ProfileButton = styled.TouchableOpacity``;
-
-export const AreaButtons = styled.View``;
-
-export const VisibleButton = styled.TouchableOpacity``;
+`;

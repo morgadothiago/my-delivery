@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <>
-      <StatusBar style="light" translucent />
+      <StatusBar style="light" />
       {isLoading ? <HomeScreen /> : <Loading />}
     </>
   );
